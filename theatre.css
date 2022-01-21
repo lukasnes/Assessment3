@@ -1,0 +1,32 @@
+.header{
+    position: absolute;
+    background-color: #4F000B;
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+.link{
+    color: #CE4257;
+}
+.barber{
+    position: absolute;
+    width: 50%;
+    top: 50px;
+    left: 0px;
+}
+.scientist {
+    position: absolute;
+    width: 50%;
+    right: 0px;
+    top: 50px;
+}
+.dead {
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    top: 539px;
+    left: 0px;
+}

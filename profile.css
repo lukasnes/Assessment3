@@ -1,0 +1,100 @@
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #CE4257;
+    text-align: center;
+    color: #4F000B;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+}
+.name {
+    position: fixed;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    top: 5px;
+    margin-top: 0px;
+    border-bottom: solid;
+}
+.return {
+    position: fixed;
+    top: 5px;
+}
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #4F000B;
+    left: 0px;
+    top: 50px;
+}
+.skillTitle{
+    text-align: center;
+    color: #CE4257;
+}
+
+.theatreKid {
+    position: relative;
+    width: 400px;
+    left: 0px;
+}
+.goofBall {
+    position: relative;
+    font-size: medium;
+    width: 400px;
+    left: 0px;
+    margin-top: 0px;
+    color: #FF9B54;
+}
+.nerd {
+    position: relative;
+    width: 100%;
+    color: #FF9B54;
+}
+.game {
+    position: relative;
+    width: 500px;
+    top: 50px;
+    visibility: hidden;
+}
+.skillsList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.favoriteGame {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+    top: 50px;
+    visibility: hidden;
+}
+.likesList {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    right: 30px;
+    font-size: xx-large;
+    color: #FF9B54;
+}
+.foodPic {
+    position: relative;
+    width: 200px;
+    visibility: hidden;
+}
+.travelPic {
+    position: relative;
+    width: 200px;
+    visibility: hidden;
+}
+.createPic {
+    position: relative;
+    width: 200px;
+    visibility: hidden;
+}
